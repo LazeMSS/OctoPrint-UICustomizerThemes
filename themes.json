@@ -1,0 +1,50 @@
+{
+  "red-night":{
+    "t": "./plugin/uicustomizer/static/themes/thumbs/red-night.png",
+    "name": "Red night",
+    "desc": "A dark theme with a red accent",
+    "org": false
+  },
+  "bluemoon":{
+    "t": "./plugin/uicustomizer/static/themes/thumbs/bluemoon.png",
+    "name": "Blue moon",
+    "desc": "Deep blue theme based on Slate",
+    "org": false
+  },
+ "cyborg":{
+    "t": "./plugin/uicustomizer/static/themes/thumbs/cyborg.png",
+    "name": "Cyborg",
+    "desc": "Jet black and electric blue.",
+    "org": "https://bootswatch.com/2/cyborg/"
+  },
+  "slate":{
+    "t": "./plugin/uicustomizer/static/themes/thumbs/slate.png",
+    "name": "Slate",
+    "desc": "Shades of gunmetal gray",
+    "org": "https://bootswatch.com/2/slate/"
+  },
+  "prusatribute":{
+    "t": "./plugin/uicustomizer/static/themes/thumbs/prusatribute.png",
+    "name": "Prusa tribute",
+    "desc": "A tribute to Prusa",
+    "org": false
+  },
+  "cosmo":{
+    "t": "./plugin/uicustomizer/static/themes/thumbs/cosmo.png",
+    "name": "Cosmo",
+    "desc": "An ode to Metro",
+    "org": "https://bootswatch.com/2/cosmo/"
+  },
+  "flatly":{
+    "t": "./plugin/uicustomizer/static/themes/thumbs/flatly.png",
+    "name": "Flatly",
+    "desc": "Flat and clean",
+    "org": "https://bootswatch.com/2/flatly/"
+  },
+  "default":{
+    "t": "./plugin/uicustomizer/static/themes/thumbs/default.png",
+    "name": "Default",
+    "desc": "Clean and natural",
+    "org": "https://octoprint.org/"
+  }
+}
