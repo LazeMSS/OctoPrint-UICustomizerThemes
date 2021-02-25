@@ -1,2 +1,2 @@
--# OctoPrint-UICustomizerThemes
--This is a placeholder for UI CustomizerThemes
+# OctoPrint-UICustomizerTheme
+This is a placeholder for UI CustomizerThemes
