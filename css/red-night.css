@@ -860,6 +860,7 @@ hr {
 .print-time-genius-after:after {
     transform: none;
     margin-left: 4px;
+    position: initial;
 }
 
 #psucontrol_indicator.on i {
