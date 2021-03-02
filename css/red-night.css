@@ -337,6 +337,10 @@ textarea:focus {
     color: var(--quiteWhite-dark);
 }
 
+#settings_dialog .table .table {
+    background-color: var(--grey1);
+}
+
 td[class^=settings_] a,
 td i a,
 th[class^=settings_] a,
