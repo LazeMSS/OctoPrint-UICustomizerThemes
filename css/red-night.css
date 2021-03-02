@@ -537,6 +537,11 @@ th i a.disabled {
     background-color: var(--grey2);
 }
 
+.table th, .table td {
+    border-bottom: 1px solid var(--accent);
+    border-top: none;
+}
+
 .modal {
     background-color: var(--grey1);
 }
@@ -821,34 +826,13 @@ hr {
     box-shadow: 0 0 8px 4px var(--quiteWhite-transparent);
 }
 
+#tab_plugin_filemanager .table-container {
+    border: none;
+}
+
 #tab_plugin_filemanager .header {
     background-color: var(--background);
     border-bottom: 1px solid var(--accent);
-}
-
-#tab_plugin_filemanager .header>div {
-    border-right: none;
-}
-
-#tab_plugin_filemanager .container-fluid>.row-fluid {
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-}
-
-#tab_plugin_filemanager .entry-hover>div {
-    border-bottom: 1px solid var(--accent);
-    border-left: 4px solid transparent;
-}
-
-#tab_plugin_filemanager .entry-hover>div.selected {
-    background-color: var(--grey4);
-    border-left-color: var(--accent);
-}
-
-#tab_plugin_filemanager .entry-hover>div:hover,
-#tab_plugin_filemanager .entry-hover>div div:hover {
-    background-color: var(--grey2);
 }
 
 .print-time-genius-after:after,
