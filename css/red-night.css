@@ -853,3 +853,47 @@ hr {
 #psucontrol_indicator.off i {
     color: var(--grey);
 }
+
+#navbar_plugin_toptemp {
+    color: var(--quiteWhite-dark);
+}
+
+#navbar_plugin_toptemp .TopTempLoad:before {
+    color: var(--accent);
+    content: "\F1CE";
+}
+
+#navbar_plugin_toptemp .fas.fa-flag-checkered {
+    color: var(--green);
+    opacity: 0.7;
+}
+
+#navbar_plugin_toptemp .TopTempGraph > svg .ct-series .ct-line {
+    stroke: var(--quiteWhite);
+    stroke-opacity: 0.4;
+}
+
+div.popover.toptempPopover {
+    background-color: var(--grey3);
+}
+
+div.popover.toptempPopover .arrow:after { 
+    border-bottom-color: var(--grey3);
+}
+
+div.popover.toptempPopover .popover-content div.TopTempPopoverGraph {
+    background-color: transparent;
+}
+
+div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-axis-title {
+    fill: var(--white-dark);
+}
+
+div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-grid {
+    stroke: var(--white-dark);
+    opacity: 0.5;
+}
+
+div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-labels span {
+    color: var(--white);
+}
