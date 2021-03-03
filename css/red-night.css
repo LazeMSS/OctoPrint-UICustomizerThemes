@@ -5,7 +5,6 @@
     --background: #1e1e20;
     --background-darker: #121213;
     --grey1: #19191b;
-    --grey2-light: #3e3e3e;
     --grey2: #242424;
     --grey3: #2d2d2f;
     --grey3-dark: #212122;
@@ -143,7 +142,7 @@ body .scrollable::-webkit-resizer,
 }
 
 .nav-tabs>li>a:hover {
-    background-color: var(--grey2-light);
+    background-color: var(--grey4);
     border: none;
     border-radius: 1px;
     border-bottom: 4px solid var(--accent);
