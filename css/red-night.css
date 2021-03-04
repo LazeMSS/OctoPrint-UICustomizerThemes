@@ -863,11 +863,6 @@ hr {
     content: "\F1CE";
 }
 
-#navbar_plugin_toptemp .fas.fa-flag-checkered {
-    color: var(--green);
-    opacity: 0.7;
-}
-
 #navbar_plugin_toptemp .TopTempGraph > svg .ct-series .ct-line {
     stroke: var(--quiteWhite);
     stroke-opacity: 0.4;
