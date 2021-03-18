@@ -782,11 +782,13 @@ hr {
     background-color: inherit;
 }
 
-.fa-spinner {
+.fa-spinner, .icon-spinner {
     color: var(--accent);
 }
 
-.fa-spinner:before {
+.fa-spinner:before, .icon-spinner:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     content: "\F1CE";
 }
 
@@ -845,7 +847,8 @@ hr {
 
 .print-time-genius-after:after,
 .print-time-genius:before {
-    font-family: FONTAWESOME3;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     content: "\F005";
 }
 
@@ -868,6 +871,8 @@ hr {
 }
 
 #navbar_plugin_toptemp .TopTempLoad:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     color: var(--accent);
     content: "\F1CE";
 }
