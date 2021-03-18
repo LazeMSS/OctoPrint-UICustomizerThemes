@@ -382,6 +382,15 @@ th i a.disabled {
     background-image: none;
 }
 
+.progress.progress-info.progress-striped .bar {
+    background-color: var(--accent-darker);
+}
+
+.progress.progress-danger.progress-striped .bar,
+.progress.progress-error.progress-striped .bar {
+    background-color: var(--red);
+}
+
 .navbar {
     background:none !important;
 }
