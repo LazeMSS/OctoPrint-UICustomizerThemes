@@ -287,6 +287,7 @@ textarea {
     text-shadow: none;
     padding-bottom: 6px;
     border-radius: 2px;
+    margin: 0;
 }
 
 .uneditable-input:focus,
@@ -891,4 +892,43 @@ div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-grid
 
 div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-labels span {
     color: var(--white);
+}
+
+#settings_plugin_bedlevelvisualizer .table {
+    border-radius: 0;
+}
+
+#settings_plugin_bedlevelvisualizer .table,
+#settings_plugin_bedlevelvisualizer .table thead tr.info > th,
+#settings_plugin_bedlevelvisualizer .table tbody tr td.info,
+#settings_plugin_bedlevelvisualizer .table tfoot tr.info > th {
+    background-color: var(--grey3);
+}
+
+#settings_plugin_bedlevelvisualizer .table tbody tr .raise,
+#settings_plugin_bedlevelvisualizer .table tfoot tr td span.raise {
+    color: var(--green);
+}
+
+#settings_plugin_bedlevelvisualizer .table tbody tr .lower,
+#settings_plugin_bedlevelvisualizer .table tfoot tr td span.lower {
+    color: var(--red);
+}
+
+#settings_plugin_bedlevelvisualizer .table thead tr.info .x-axis-label,
+#settings_plugin_bedlevelvisualizer .table tbody tr .x-axis-label,
+#settings_plugin_bedlevelvisualizer .table tfoot tr .x-axis-label,
+#settings_plugin_bedlevelvisualizer .table tfoot tr .x-axis-label  {
+    color: var(--quiteWhite-dark);
+}
+
+#settings_plugin_bedlevelvisualizer .table thead tr.info .y-axis-label,
+#settings_plugin_bedlevelvisualizer .table tbody tr .y-axis-label,
+#settings_plugin_bedlevelvisualizer .table tfoot tr .y-axis-label,
+#settings_plugin_bedlevelvisualizer .table tfoot tr.info .y-axis-label {
+    color: var(--grey);
+}
+
+#settings_plugin_bedlevelvisualizer #bedlevelvisualizer_command {
+    min-height: 300px;
 }
