@@ -2,7 +2,7 @@
   "red-night":{
     "name": "Red night",
     "desc": "A dark theme with a red accent",
-    "org": false
+    "org": "https://poeschl.xyz/"
   },
   "bluemoon":{
     "name": "Blue moon",
