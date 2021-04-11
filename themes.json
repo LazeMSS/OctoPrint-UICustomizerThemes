@@ -1,4 +1,14 @@
 {
+  "darkgreen":{
+    "name": "Dark Green",
+    "desc": "It's not easy being green.",
+    "org": false
+  },
+  "green-night":{
+    "name": "Green night",
+    "desc": "A dark theme with a green accent",
+    "org": "https://poeschl.xyz/"
+  },
   "red-night":{
     "name": "Red night",
     "desc": "A dark theme with a red accent",
