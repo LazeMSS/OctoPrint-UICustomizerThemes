@@ -1,4 +1,9 @@
 {
+  "darkgreen":{
+    "name": "Dark Green",
+    "desc": "It's not easy being green.",
+    "org": false
+  },
   "red-night":{
     "name": "Red night",
     "desc": "A dark theme with a red accent",
