@@ -92,12 +92,24 @@ a:hover {
 }
 .nav-pills>.active>a, .nav-pills>.active>a:hover {
     background-color: var(--green);
+    background-image: -moz-linear-gradient(top var(--green), var(--darkgreen));
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(var(--green)),to(var(--darkgreen)));
+    background-image: -webkit-linear-gradient(top,var(--green),var(--darkgreen));
+    background-image: -o-linear-gradient(top,var(--green),var(--darkgreen));
+    background-image: linear-gradient(to bottom,var(--green),var(--darkgreen));
+    background-repeat: repeat-x;
+    outline: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0);
 }
 
 .nav-tabs>li>a:hover {
     background-color: var(--lighterish);
     border: 1px solid var(--darkish);
     color: var(--green);
+}
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: var(--notquiteBlack);
 }
 
 h1, h2, h3, h4 {
@@ -128,9 +140,25 @@ h1, h2, h3, h4 {
 }
 .btn .btn-primary, .btn-primary[disabled] {
     background-color: var(--green);
+    background-image: -moz-linear-gradient(top var(--green), var(--darkgreen));
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(var(--green)),to(var(--darkgreen)));
+    background-image: -webkit-linear-gradient(top,var(--green),var(--darkgreen));
+    background-image: -o-linear-gradient(top,var(--green),var(--darkgreen));
+    background-image: linear-gradient(to bottom,var(--green),var(--darkgreen));
+    background-repeat: repeat-x;
+    outline: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0);
 }
 .btn-primary {
     background-color: var(--green);
+    background-image: -moz-linear-gradient(top var(--green), var(--darkgreen));
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(var(--green)),to(var(--darkgreen)));
+    background-image: -webkit-linear-gradient(top,var(--green),var(--darkgreen));
+    background-image: -o-linear-gradient(top,var(--green),var(--darkgreen));
+    background-image: linear-gradient(to bottom,var(--green),var(--darkgreen));
+    background-repeat: repeat-x;
+    outline: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0);
     border: none;
 }
 .btn-primary:hover {
@@ -274,21 +302,23 @@ td i.disabled, th i.disabled {
     background: var(--green);
 }
 
-#navbar .navbar-inner {
+#navbar .navbar-inner,
+.navbar .navbar-inner {
     background-color: var(--notquiteBlack);
     border: none;
     background-image: none;
 }
-#navbar .navbar-inner {
-    background-color: var(--notquiteBlack);
-    border: none;
-    background-image: none;
-}
-#navbar .navbar-inner .nav >li.dropdown.open>.dropdown-toggle, #navbar .navbar-inner .nav >li.dropdown.active>.dropdown-toggle, #navbar .navbar-inner .nav >li.dropdown.open.active>.dropdown-toggle {
+#navbar .navbar-inner .nav >li.dropdown.open>.dropdown-toggle,
+#navbar .navbar-inner .nav >li.dropdown.active>.dropdown-toggle,
+#navbar .navbar-inner .nav >li.dropdown.open.active>.dropdown-toggle,
+.navbar .navbar-inner .nav >li.dropdown.open>.dropdown-toggle,
+.navbar .navbar-inner .nav >li.dropdown.active>.dropdown-toggle,
+.navbar .navbar-inner .nav >li.dropdown.open.active>.dropdown-toggle {
     background: var(--notquiteBlack);
     color: var(--green);
 }
-#navbar .navbar-inner .nav > li > a:hover {
+#navbar .navbar-inner .nav > li > a:hover,
+.navbar .navbar-inner .nav > li > a:hover {
     color: var(--green);
     background: var(--highlighter);
 }
@@ -298,13 +328,22 @@ td i.disabled, th i.disabled {
 #navbar .navbar-inner .nav > li > .dropdown-menu:after {
     border-bottom-color: var(--notquiteBlack);
 }
-#navbar .navbar-inner .brand, #navbar .navbar-inner .nav > li > a {
+#navbar .navbar-inner .brand,
+#navbar .navbar-inner .nav > li > a,
+.navbar .navbar-inner .brand,
+.navbar .navbar-inner .nav > li > a {
     color: var(--green);
     text-shadow: none;
 }
-#navbar .navbar-inner .brand .caret, #navbar .navbar-inner .nav > li > a .caret {
+#navbar .navbar-inner .brand .caret,
+#navbar .navbar-inner .nav > li > a .caret,
+.navbar .navbar-inner .brand .caret,
+.navbar .navbar-inner .nav > li > a .caret {
     border-top-color: var(--green);
     border-bottom-color: var(--green);
+}
+.navbar {
+    background:none !important;
 }
 .dropdown-menu {
     background: var(--notquiteBlack);
@@ -316,6 +355,19 @@ td i.disabled, th i.disabled {
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus {
     background: var(--highlighter);
     outline: none;
+}
+.dropdown-menu .active>a, .dropdown-menu .active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--green);
+    background-image: -moz-linear-gradient(top var(--green), var(--darkgreen));
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(var(--green)),to(var(--darkgreen)));
+    background-image: -webkit-linear-gradient(top,var(--green),var(--darkgreen));
+    background-image: -o-linear-gradient(top,var(--green),var(--darkgreen));
+    background-image: linear-gradient(to bottom,var(--green),var(--darkgreen));
+    background-repeat: repeat-x;
+    outline: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0);
 }
 #files .gcode_files .entry:hover, .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     background-color: var(--lighterish);
