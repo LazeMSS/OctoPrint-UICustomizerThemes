@@ -522,3 +522,9 @@ textarea[readonly] {
 #tab_plugin_filemanager .header {
     background-color: #36393f;
 }
+
+.print-time-genius-after:after {
+    transform: none;
+    margin-left: 4px;
+    position: initial;
+}
