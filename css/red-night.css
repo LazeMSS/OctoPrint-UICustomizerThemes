@@ -753,6 +753,13 @@ textarea[readonly] {
     color: var(--green);
 }
 
+.well {
+    background-color: var(--grey2);
+    color: var(--quiteWhite);
+    border-radius: 4px;
+    border-color: transparent;
+}
+
 .accordion-inner,
 hr {
     border-top-color: var(--accent);
