@@ -528,3 +528,28 @@ textarea[readonly] {
     margin-left: 4px;
     position: initial;
 }
+
+div.popover.toptempPopover {
+    background-color: #36393f;
+}
+
+div.popover.toptempPopover .popover-title {
+    background-color: transparent;
+}
+
+div.popover.toptempPopover .popover-content div.TopTempPopoverGraph {
+    background-color: transparent;
+}
+
+div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-axis-title {
+    fill: #e7e7e8;
+}
+
+div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-grid {
+    stroke: #e7e7e8;
+    opacity: 0.5;
+}
+
+div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-labels span {
+    color: #fff;
+}
