@@ -270,6 +270,9 @@ td[class^="settings_"] a:hover, th[class^="settings_"] a:hover {
 td[class^="settings_"] a.disabled, th[class^="settings_"] a.disabled {
     color: var(--greyple);
 }
+th[class^="settings_"] {
+    background-color: var(--highlighter);
+}
 td i, th i {
     color: var(--notquiteWhite);
 }
@@ -519,4 +522,8 @@ input[disabled], select[disabled], textarea[disabled], input[readonly], select[r
 }
 .alert h1, .alert h2, .alert h3, .alert h4, .alert h5, .alert h6 {
     color: inherit;
+}
+.well {
+    background-color: var(--lighterish);
+    border: var(--darkerWhite);
 }
