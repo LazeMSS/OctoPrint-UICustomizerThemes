@@ -518,3 +518,7 @@ textarea[readonly] {
 .alert h6 {
     color: inherit
 }
+
+#tab_plugin_filemanager .header {
+    background-color: #36393f;
+}
