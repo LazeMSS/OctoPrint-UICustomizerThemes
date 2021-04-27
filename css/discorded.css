@@ -554,6 +554,11 @@ div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-labe
     color: #fff;
 }
 
+.well {
+    background-color: #656b76;
+    border-color: transparent;
+}
+
 #settings_plugin_bedlevelvisualizer .table,
 #settings_plugin_bedlevelvisualizer .table thead tr.info > th,
 #settings_plugin_bedlevelvisualizer .table tbody tr td.info,
