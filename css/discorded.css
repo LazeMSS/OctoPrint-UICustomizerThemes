@@ -593,3 +593,25 @@ div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-labe
 #settings_plugin_bedlevelvisualizer #bedlevelvisualizer_command {
     min-height: 300px;
 }
+
+#dialog_printJobHistory_compareSlicerSettings.modal {
+    width: 1000px;
+    margin-left: -500px
+}
+
+#dialog_printJobHistory_compareSlicerSettings .modal-body,
+#dialog_printJobHistory_compareSlicerSettings table tbody tr td {
+    background: #2f3136;
+}
+
+#dialog_printJobHistory_compareSlicerSettings table thead th{
+    background: #2f3136 !important;
+}
+
+#dialog_printJobHistory_compareSlicerSettings table tbody tr span[style*="black"] {
+    color: #fff !important;
+}
+
+#dialog_printJobHistory_compareSlicerSettings table tbody tr span[style*="blue"] {
+    color: red !important;
+}
