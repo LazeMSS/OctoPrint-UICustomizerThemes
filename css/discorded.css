@@ -12,6 +12,10 @@ a:hover {
     color: #d4dbe0
 }
 
+#page-container-loading #page-container-loading-spinner {
+    color: #7289da !important;
+}
+
 .octoprint-container .tab-content h1 {
     color: #fff
 }
@@ -517,6 +521,20 @@ textarea[readonly] {
 .alert h5,
 .alert h6 {
     color: inherit
+}
+
+.UICWebCamClick {
+    opacity: .5;
+    background-color: #2f3136;
+    border-radius: 4px;
+}
+
+.UICWebCamClick i {
+    color: #fff;
+}
+
+.UICWebCamClick:hover {
+    opacity: 1;
 }
 
 #tab_plugin_filemanager .header {
