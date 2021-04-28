@@ -9,6 +9,11 @@
     "desc": "A dark theme with a red accent",
     "org": "https://poeschl.xyz/"
   },
+  "discorded":{
+    "name": "Discorded",
+    "desc": "A discord-like theme based on the first themeify theme",
+    "org": "https://poeschl.xyz/"
+  },
   "bluemoon":{
     "name": "Blue moon",
     "desc": "Deep blue theme based on Slate",
