@@ -62,6 +62,10 @@ a:hover {
     color: #99aab5 !important;
 }
 
+.nav-pills>li>a:hover {
+    background-color: #656b76
+}
+
 .btn,
 h1,
 h2,
@@ -283,9 +287,12 @@ th i.disabled {
     background: #7289da
 }
 
-#UICsettingsMenuNav.navbar {
-    background: unset;
-    background-image: none;
+.navbar {
+    background: none;
+}
+
+#UICsettingsMenuNav {
+    background:linear-gradient(180deg, #36393f 0px, #36393f 55px, transparent 100%);
 }
 
 #navbar .navbar-inner {

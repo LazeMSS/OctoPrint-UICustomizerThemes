@@ -393,7 +393,11 @@ th i a.disabled {
 }
 
 .navbar {
-    background:none !important;
+    background: none;
+}
+
+#UICsettingsMenuNav {
+    background:linear-gradient(180deg, var(--grey1) 0px, var(--grey1) 55px, transparent 100%);
 }
 
 #navbar .navbar-inner,
