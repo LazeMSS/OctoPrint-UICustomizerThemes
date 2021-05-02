@@ -63,8 +63,11 @@ a:hover {
 .nav-pills > .active > a:hover {
   background-color: #FC8003;
 }
+.nav-pills > li > a:hover {
+  background-color: #d46c03
+}
 .nav-tabs > li > a:hover {
-  background-color: #474a51;
+  background-color: #FC8003;
   border: 1px solid #36393f;
   color: #FC8003;
 }
