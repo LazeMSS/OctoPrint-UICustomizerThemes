@@ -14,6 +14,11 @@
     "desc": "A discord-like theme based on the first themeify theme",
     "org": "https://poeschl.xyz/"
   },
+  "discoranged":{
+    "name": "Discoranged",
+    "desc": "A discord-like theme with Orange accents based on the themeify theme",
+    "org": "https://github.com/jneilliii"
+  },
   "bluemoon":{
     "name": "Blue moon",
     "desc": "Deep blue theme based on Slate",
