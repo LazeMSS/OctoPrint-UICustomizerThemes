@@ -295,7 +295,8 @@ th i.disabled {
     background:linear-gradient(180deg, #36393f 0px, #36393f 55px, transparent 100%);
 }
 
-#navbar .navbar-inner {
+#navbar .navbar-inner,
+#UICsettingsMenuNav .navbar-inner {
     background-color: #2f3136;
     border: none;
     background-image: none
@@ -303,31 +304,40 @@ th i.disabled {
 
 #navbar .navbar-inner .nav>li.dropdown.active>.dropdown-toggle,
 #navbar .navbar-inner .nav>li.dropdown.open.active>.dropdown-toggle,
-#navbar .navbar-inner .nav>li.dropdown.open>.dropdown-toggle {
+#navbar .navbar-inner .nav>li.dropdown.open>.dropdown-toggle,
+#UICsettingsMenuNav .navbar-inner .nav > li.dropdown.open > .dropdown-toggle,
+#UICsettingsMenuNav .navbar-inner .nav > li.dropdown.active > .dropdown-toggle,
+#UICsettingsMenuNav .navbar-inner .nav > li.dropdown.open.active > .dropdown-toggle {
     background: #2d2f33;
     border-bottom: 1px solid #dadadc;
     color: #fff
 }
 
-#navbar .navbar-inner .nav>li>a:hover {
+#navbar .navbar-inner .nav>li>a:hover,
+#UICsettingsMenuNav .navbar-inner .nav > li > a:hover {
     color: #fff;
     background: #474a51
 }
 
 #navbar .navbar-inner .brand,
-#navbar .navbar-inner .nav>li>a {
+#navbar .navbar-inner .nav>li>a,
+#UICsettingsMenuNav .navbar-inner .brand,
+#UICsettingsMenuNav .navbar-inner .nav > li > a {
     color: #fff;
     text-shadow: 0 1px 0 #595e68;
 }
 
 #navbar .navbar-inner .brand .caret,
-#navbar .navbar-inner .nav>li>a .caret {
+#navbar .navbar-inner .nav>li>a .caret
+#UICsettingsMenuNav .navbar-inner .brand .caret,
+#UICsettingsMenuNav .navbar-inner .nav > li > a .caret {
     border-top-color: #fff;
     border-bottom-color: #fff
 }
 
 #navbar .navbar-inner li>.dropdown-menu:after,
-.navbar .navbar-inner li>.dropdown-menu:after {
+.navbar .navbar-inner li>.dropdown-menu:after,
+#UICsettingsMenuNav .navbar-inner .nav > li > .dropdown-menu:after {
     display: none;
 }
 
