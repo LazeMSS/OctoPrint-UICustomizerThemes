@@ -53,5 +53,10 @@
     "name": "Default",
     "desc": "Clean and natural",
     "org": "https://octoprint.org/"
+  },
+    "dracula":{
+    "name": "Dracula",
+    "desc": "Dracula based theme for UI Customizer",
+    "org": "https://draculatheme.com/"
   }
 }
