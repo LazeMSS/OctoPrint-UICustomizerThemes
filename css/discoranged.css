@@ -45,6 +45,9 @@ a:hover {
 .octoprint-container .accordion-heading .accordion-heading-button a {
   color: inherit;
 }
+.navbar-text {
+  color: #FC8003;
+}
 .nav-tabs {
   border: 1px solid #36393f;
 }
