@@ -43,6 +43,10 @@ a:hover {
     color: inherit
 }
 
+.navbar-text {
+    color: #fff;
+}
+
 .nav-tabs>li>a {
     -webkit-border-radius: 0;
     border-radius: 0

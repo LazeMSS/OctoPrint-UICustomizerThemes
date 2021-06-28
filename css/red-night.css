@@ -396,6 +396,10 @@ th i a.disabled {
     background: none;
 }
 
+.navbar-text {
+    color: var(--white);
+}
+
 #UICsettingsMenuNav {
     background:linear-gradient(180deg, var(--grey1) 0px, var(--grey1) 55px, transparent 100%);
 }

@@ -113,6 +113,10 @@ a:hover {
     background-color: var(--notquiteBlack);
 }
 
+.navbar-text {
+    color: var(--green)
+}
+
 h1, h2, h3, h4 {
     color: var(--green)
 }

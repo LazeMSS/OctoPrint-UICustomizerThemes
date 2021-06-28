@@ -58,6 +58,9 @@ a:hover {
 .octoprint-container .accordion-heading .accordion-heading-button a {
   color: inherit;
 }
+.navbar-text {
+  color: #FC8003;
+}
 .nav-tabs {
   border: 1px solid var(--background);
 }
@@ -677,5 +680,5 @@ div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-labe
 }
 
 #dialog_printJobHistory_compareSlicerSettings table tbody tr span[style*="blue"] {
-  color: red !important;
+    color: red !important;
 }
