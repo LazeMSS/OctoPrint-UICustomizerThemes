@@ -9,7 +9,12 @@ a {
 a:hover {
   color: #d4dbe0;
 }
-
+#page-container-loading {
+    background: #36393f;
+}
+#page-container-loading #page-container-loading-header:after {
+    color: #dadadc;
+}
 #page-container-loading #page-container-loading-spinner {
     color: #FC8003 !important;
 }
@@ -568,6 +573,11 @@ textarea[readonly] {
 .alert h5,
 .alert h6 {
   color: inherit;
+}
+
+.form-signin {
+  background-color: #2f3136;
+  border-color: #FC8003;
 }
 
 .well {
