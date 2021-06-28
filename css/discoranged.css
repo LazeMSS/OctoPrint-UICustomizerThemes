@@ -18,7 +18,7 @@ a:hover {
   color: #d4dbe0;
 }
 #page-container-loading {
-  background: #36393f;
+  background: var(--background);
 }
 #page-container-loading #page-container-loading-header:after {
   color: #dadadc;
@@ -59,7 +59,7 @@ a:hover {
   color: inherit;
 }
 .navbar-text {
-  color: #FC8003;
+  color:  var(--accent);
 }
 .nav-tabs {
   border: 1px solid var(--background);
@@ -588,16 +588,20 @@ textarea[readonly] {
 
 .form-signin {
   background-color: #2f3136;
-  border-color: #FC8003;
+  border-color: var(--accent);
 }
 
 .popover {
   background-color: #2f3136;
-  border-color: #FC8003;
+  border-color: var(--accent);
 }
 
 .popover .popover-title {
   background-color: transparent;
+}
+
+div.popover.toptempPopover div.arrow {
+  border-bottom-color:  var(--accent);
 }
 
 div.popover.toptempPopover .arrow:after {
