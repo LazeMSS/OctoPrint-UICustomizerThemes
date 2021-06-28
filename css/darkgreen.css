@@ -21,6 +21,7 @@
     --almostWhite: #ebebeb;
     --darkerWhite: #a3a3a3;
     --highlighter: #4b4d42;
+    --accent: var(--green);
 }
 
 body {
