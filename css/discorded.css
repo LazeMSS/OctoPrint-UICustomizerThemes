@@ -505,6 +505,28 @@ body::-webkit-resizer, body .scrollable::-webkit-resizer, .scroll-wrapper::-webk
   border-color: var(--accent);
 }
 
+.popover-title {
+  background-color: #474a51;
+  border-color: var(--accent);
+}
+
+.popover.top .arrow:after {
+  border-top-color: var(--accent);
+}
+
+.popover.bottom .arrow:after {
+  border-bottom-color: var(--accent);
+}
+
+.popover.left .arrow:after {
+  border-left-color: var(--accent);
+}
+
+
+.popover.right .arrow:after {
+  border-right-color: var(--accent);
+}
+
 div.popover.toptempPopover {
     background-color: var(--background);
 }
