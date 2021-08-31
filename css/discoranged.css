@@ -600,6 +600,22 @@ textarea[readonly] {
   background-color: transparent;
 }
 
+.popover.top .arrow:after {
+  border-top-color: var(--accent);
+}
+
+.popover.bottom .arrow:after {
+  border-bottom-color: var(--accent);
+}
+
+.popover.left .arrow:after {
+  border-left-color: var(--accent);
+}
+
+.popover.right .arrow:after {
+  border-right-color: var(--accent);
+}
+
 div.popover.toptempPopover div.arrow {
   border-bottom-color:  var(--accent);
 }
