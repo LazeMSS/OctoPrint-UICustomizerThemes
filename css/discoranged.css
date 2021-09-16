@@ -363,7 +363,15 @@ th i.disabled {
 .dropdown-menu .active>a:hover {
   background: var(--accent);
 }
+#settings_dialog_content .table-striped tbody > tr:nth-child(odd) > td,
+#settings_dialog_content .table-striped tbody th,
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody th {
+  background-color: var(--background);
+}
 #files .gcode_files .entry:hover,
+#settings_dialog_content .table-hover tbody tr:hover td,
+#settings_dialog_content .table-hover tbody tr:hover th,
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
   background-color: #474a51;
@@ -385,10 +393,6 @@ th i.disabled {
   border-color: #656b76;
   border-left: none;
   border-right: none;
-}
-.table-striped tbody > tr:nth-child(odd) > td,
-.table-striped tbody th {
-  background-color: var(--background);
 }
 .modal {
   background-color: var(--background);
