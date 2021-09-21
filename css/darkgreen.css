@@ -377,20 +377,13 @@ td i.disabled, th i.disabled {
     outline: 0;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0);
 }
-
-#files .gcode_files .entry:hover,
-#settings_dialog_content .table-hover tbody tr:hover td,
-#settings_dialog_content .table-hover tbody tr:hover th,
-.table-hover tbody tr:hover td,
-.table-hover tbody tr:hover th {
-    background-color: var(--lighterish);
-}
 .legend > table {
     color: var(--notquiteWhite) !important;
 }
 .progress {
     background: var(--lighterish);
 }
+
 .table-bordered, .table-striped {
     border: none var(--lighterish);
 }
@@ -399,12 +392,19 @@ td i.disabled, th i.disabled {
     border-left: none;
     border-right: none;
 }
-
 #settings_dialog_content .table-striped tbody > tr:nth-child(odd) > td,
 #settings_dialog_content .table-striped tbody th,
 .table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody th {
     background-color: var(--darkish);
 }
+#files .gcode_files .entry:hover,
+#settings_dialog_content .table-hover tbody tr:hover td,
+#settings_dialog_content .table-hover tbody tr:hover th,
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: var(--lighterish);
+}
+
 .modal {
     background-color: var(--darkish);
 }
