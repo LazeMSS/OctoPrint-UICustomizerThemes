@@ -842,14 +842,23 @@ hr {
     opacity: 1;
 }
 
-.UICTabIcon i {
-    color: var(--white)!important;
-}
-
-#UICWebCamFull {
-    background-color: var(--grey1);
+#UICWebCamFull.FloatCam {
+    background-color: var(--background);
     transition: box-shadow .2s ease-in-out;
     box-shadow: 0 0 8px 4px var(--quiteWhite-transparent);
+    padding: 0;
+}
+
+#UICWebCamFull.FloatCam .label {
+    background-color: var(--grey);
+}
+
+#UICWebCamFull #UICWebCamFullProgress {
+    filter: unset;
+}
+
+.UICTabIcon i {
+    color: var(--white)!important;
 }
 
 #tab_plugin_filemanager .table-container {
