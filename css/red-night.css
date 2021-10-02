@@ -849,11 +849,11 @@ hr {
     padding: 0;
 }
 
-#UICWebCamFull.FloatCam .label {
+#UICWebCamFullProgress div.label {
     background-color: var(--grey);
 }
 
-#UICWebCamFull #UICWebCamFullProgress {
+#UICWebCamFull, #UICWebCamFullProgress {
     filter: unset;
 }
 
