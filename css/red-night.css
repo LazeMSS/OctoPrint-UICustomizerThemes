@@ -160,6 +160,14 @@ body .scrollable::-webkit-resizer,
     border-bottom: 4px solid var(--accent);
 }
 
+.nav-tabs .dropdown-menu {
+    min-width: unset;
+}
+
+.nav-tabs .dropdown-menu li>a {
+    width: unset;
+}
+
 .nav-pills>li>a {
     background-color: var(--grey1);
     border-radius: 16px;
