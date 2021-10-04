@@ -148,7 +148,8 @@ body .scrollable::-webkit-resizer,
     border-bottom: 4px solid var(--accent);
 }
 
-.nav-tabs>li>a i {
+.nav-tabs>li>a i,
+.nav-tabs .dropdown-menu li>a i {
     color: var(--quiteWhite)!important;
 }
 
