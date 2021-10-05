@@ -542,9 +542,21 @@ input[disabled], select[disabled], textarea[disabled], input[readonly], select[r
 }
 .popover {
     background-color: var(--darkish);
-    border-color: var(--green);
+    border-color: var(--accent);
 }
 .popover-title {
     background-color: var(--notquiteBlack);
-    border-color: var(--green);
+    border-color: var(--accent);
+}
+.popover.top .arrow:after {
+    border-top-color: var(--accent);
+}
+.popover.bottom .arrow:after {
+    border-bottom-color: var(--accent);
+}
+.popover.left .arrow:after {
+    border-left-color: var(--accent);
+}
+.popover.right .arrow:after {
+    border-right-color: var(--accent);
 }
