@@ -148,7 +148,8 @@ body .scrollable::-webkit-resizer,
     border-bottom: 4px solid var(--accent);
 }
 
-.nav-tabs>li>a i {
+.nav-tabs>li>a i,
+.nav-tabs .dropdown-menu li>a i {
     color: var(--quiteWhite)!important;
 }
 
@@ -158,6 +159,14 @@ body .scrollable::-webkit-resizer,
     color: #fff;
     border: none;
     border-bottom: 4px solid var(--accent);
+}
+
+.nav-tabs .dropdown-menu {
+    min-width: unset;
+}
+
+.nav-tabs .dropdown-menu li>a {
+    width: unset;
 }
 
 .nav-pills>li>a {
@@ -458,12 +467,17 @@ th i a.disabled {
     color: var(--red);
 }
 
+.navbar .btn-navbar,
 #navbar .navbar-inner .btn-navbar {
     background-color: var(--grey2);
     background-image: none;
     color: var(--white);
     border: none;
     box-shadow: none;
+}
+
+.navbar .btn-navbar:active, .navbar .btn-navbar:hover {
+    background-color: var(--grey4);
 }
 
 #navbar_login i {
