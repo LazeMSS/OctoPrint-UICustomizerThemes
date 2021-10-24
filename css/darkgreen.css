@@ -143,7 +143,7 @@ h1, h2, h3, h4 {
     background-color: var(--lighterish);
     color: var(--white);
 }
-.btn .btn-primary, .btn-primary[disabled] {
+.btn .btn-primary {
     background-color: var(--green);
     background-image: -moz-linear-gradient(top var(--green), var(--darkgreen));
     background-image: -webkit-gradient(linear,0 0,0 100%,from(var(--green)),to(var(--darkgreen)));
@@ -154,6 +154,14 @@ h1, h2, h3, h4 {
     outline: 0;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0);
 }
+.btn.disabled,
+.btn[disabled] {
+    background-color: transparent!important;
+    background-image: repeating-linear-gradient(-60deg, var(--grey4), var(--grey4) .25rem, transparent 0, transparent .5rem)!important;
+    color: var(--quiteWhite-dark);
+    opacity: .65;
+}
+
 .btn-primary {
     background-color: var(--green);
     background-image: -moz-linear-gradient(top var(--green), var(--darkgreen));
@@ -193,7 +201,7 @@ h1, h2, h3, h4 {
     color: var(--white);
 }
 .btn.disabled, .btn[disabled] {
-    background-color: var(--greyple);
+    background-color: var(--greyple) !important;
     color: var(--darkwhite);
 }
 .btn.disabled:hover, .btn[disabled]:hover {
