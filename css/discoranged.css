@@ -657,14 +657,20 @@ div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-labe
   background-color: #2f3136;
 }
 
-#settings_plugin_bedlevelvisualizer .table tbody tr .raise,
-#settings_plugin_bedlevelvisualizer .table tfoot tr td span.raise {
+#settings_plugin_bedlevelvisualizer .raise {
   color: green;
 }
 
-#settings_plugin_bedlevelvisualizer .table tbody tr .lower,
-#settings_plugin_bedlevelvisualizer .table tfoot tr td span.lower {
+#settings_plugin_bedlevelvisualizer .lower {
   color: red;
+}
+
+#settings_plugin_bedlevelvisualizer div.raise > div.turn_circle {
+    background-color: green;
+}
+
+#settings_plugin_bedlevelvisualizer div.lower > div.turn_circle {
+    background-color: red;
 }
 
 #settings_plugin_bedlevelvisualizer .table thead tr.info .x-axis-label,
@@ -678,6 +684,43 @@ div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-labe
 #settings_plugin_bedlevelvisualizer .table tbody tr .y-axis-label,
 #settings_plugin_bedlevelvisualizer .table tfoot tr .y-axis-label,
 #settings_plugin_bedlevelvisualizer .table tfoot tr.info .y-axis-label {
+  color: inherit;
+}
+
+#tab_plugin_bedlevelvisualizer .table,
+#tab_plugin_bedlevelvisualizer .table thead tr.info > th,
+#tab_plugin_bedlevelvisualizer .table tbody tr td.info,
+#tab_plugin_bedlevelvisualizer .table tfoot tr.info > th {
+  background-color: #2f3136;
+}
+
+#tab_plugin_bedlevelvisualizer .raise {
+  color: green;
+}
+
+#tab_plugin_bedlevelvisualizer .lower {
+  color: red;
+}
+
+#tab_plugin_bedlevelvisualizer div.raise > div.turn_circle {
+    background-color: green;
+}
+
+#tab_plugin_bedlevelvisualizer div.lower > div.turn_circle {
+    background-color: red;
+}
+
+#tab_plugin_bedlevelvisualizer .table thead tr.info .x-axis-label,
+#tab_plugin_bedlevelvisualizer .table tbody tr .x-axis-label,
+#tab_plugin_bedlevelvisualizer .table tfoot tr .x-axis-label,
+#tab_plugin_bedlevelvisualizer .table tfoot tr .x-axis-label  {
+  color: inherit;
+}
+
+#tab_plugin_bedlevelvisualizer .table thead tr.info .y-axis-label,
+#tab_plugin_bedlevelvisualizer .table tbody tr .y-axis-label,
+#tab_plugin_bedlevelvisualizer .table tfoot tr .y-axis-label,
+#tab_plugin_bedlevelvisualizer .table tfoot tr.info .y-axis-label {
   color: inherit;
 }
 
