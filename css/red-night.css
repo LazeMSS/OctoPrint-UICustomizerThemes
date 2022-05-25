@@ -150,7 +150,7 @@ body .scrollable::-webkit-resizer,
 
 .nav-tabs>li>a i,
 .nav-tabs .dropdown-menu li>a i {
-    color: var(--quiteWhite)!important;
+    color: var(--quiteWhite);
 }
 
 .nav-tabs>.active>a,
