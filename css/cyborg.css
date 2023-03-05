@@ -6675,3 +6675,7 @@ body.UICResponsiveMode #settings_dialog_content{
 .ct-series-a .ct-line{
   stroke: #b94a48;
 }
+
+#settings_dialog table td>a {
+    color: #ffffff !important;
+}

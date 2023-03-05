@@ -6564,3 +6564,7 @@ a.thumbnail:hover {
 #tabs_content {
   border-top: 1px solid #666;
 }
+
+#settings_dialog table td>a {
+    color: #ffffff !important;
+}

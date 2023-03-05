@@ -568,3 +568,6 @@ input[disabled], select[disabled], textarea[disabled], input[readonly], select[r
 .popover.right .arrow:after {
     border-right-color: var(--accent);
 }
+#settings_dialog table td>a {
+    color: var(--white) !important;
+}
