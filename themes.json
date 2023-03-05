@@ -53,5 +53,10 @@
     "name": "Default",
     "desc": "Clean and natural",
     "org": "https://octoprint.org/"
+  },
+   "matrix":{
+    "name": "Matrix",
+    "desc": "A discord-like theme with Green accents based on the themeify theme",
+    "org": "https://github.com/Sleeepy2"
   }
 }
