@@ -6624,3 +6624,8 @@ a.accordion-toggle:not(.collapsed) {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+
+#settings_dialog table td>a {
+    color: #ffffff !important;
+}

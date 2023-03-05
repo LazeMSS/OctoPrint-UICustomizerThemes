@@ -753,3 +753,7 @@ div.popover.toptempPopover .popover-content div.TopTempPopoverGraph svg .ct-labe
 #dialog_printJobHistory_compareSlicerSettings table tbody tr span[style*="blue"] {
     color: red !important;
 }
+
+#settings_dialog table td>a {
+    color: var(--white) !important;
+}

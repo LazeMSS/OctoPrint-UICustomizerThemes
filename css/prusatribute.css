@@ -6466,3 +6466,7 @@ label {
 body.UICResponsiveMode #settings_dialog_content{
   margin-top: 55px;
 }
+
+#settings_dialog table td>a {
+    color: #f3f3f3 !important;
+}
