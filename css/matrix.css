@@ -32,9 +32,6 @@ a:hover {
 .octoprint-container .tab-content h1 {
   color: #FFFFFF;
 }
-.octoprint-container {
-    background-image: url(/plugin/custombackground/custom/green-matrix-wallpaper.jpg);;
-  }
 .octoprint-container .tab-content {
   border: none #2f3136;
   background-color: #2f3136;
